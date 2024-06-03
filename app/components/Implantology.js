@@ -5,7 +5,7 @@ const Implantology = () => {
     <section className="implantology">
      
        <div className="image-container">
-        <Image src="/images/implantsvg.svg" alt="Implantology" width={690} height={700} layout="responsive" />
+        <Image src="/images/implantsvg.svg" alt="Implantology" width={570} height={590} layout='responsive' />
         
       </div> 
       <div className="bg-implantology">
