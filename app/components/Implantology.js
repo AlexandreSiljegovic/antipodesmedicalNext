@@ -5,7 +5,8 @@ const Implantology = () => {
     <section className="implantology">
      
        <div className="image-container">
-        <Image src="/images/implantsvg.svg" alt="Implantology" width={570} height={590} layout='responsive' />
+        
+        <div className = "implant"></div>
         
       </div> 
       <div className="bg-implantology">
@@ -16,12 +17,17 @@ const Implantology = () => {
        </svg>
       
       <p>
-        Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque at et pellentesque arcu bibendum. 
-Ultrices eleifend elementum nec rutrum consectetur cursus eleifend. Scelerisque at et pellentesque arcu bibendum. Ultrices eleifend elementum nec. Ultrices rutrum consectetur. Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque at et pellentesque arcu bibendum. 
-Consectetur cursus eleifend. Scelerisque at et pellentesque arcu bibendum. Ultrices eleifend elementum nec.Ultrices eleifend elementum nec rutrum consectetur.
+       Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque at et pellentesque arcu bibendum. 
+      </p><br/>
+      <p>
+        Ultrices eleifend elementum nec rutrum consectetur cursus eleifend. Scelerisque at et pellentesque arcu bibendum. Ultrices eleifend elementum nec. Ultrices rutrum consectetur. Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque at et pellentesque arcu bibendum. 
+      </p> <br/>
+      <p>
+        Consectetur cursus eleifend. Scelerisque at et pellentesque arcu bibendum. Ultrices eleifend elementum nec.Ultrices eleifend elementum nec rutrum consectetur.
       </p>
        <button><span>En savoir plus →</span></button>
         </div>
+        
         </div>
      
     </section>

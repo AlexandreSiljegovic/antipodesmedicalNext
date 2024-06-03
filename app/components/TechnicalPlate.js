@@ -12,8 +12,9 @@ const TechnicalPlate = () => {
       <p>
         Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque et et pellentesque arcu bibendum eleifend elementum nec rutrum consectetur. Ultrices eleifend elementum nec rutrum consectetur...
       </p>
-      </div>
       <button><span>En savoir plus →</span></button>
+      </div>
+      
       </div>
       <div className="features">
         <div className="feature">
