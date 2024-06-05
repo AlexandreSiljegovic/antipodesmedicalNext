@@ -1,0 +1,35 @@
+.technicalPlate {
+    /* Add your existing styles /
+  }
+  
+  .bgTechnique {
+    / Add your existing styles /
+  }
+  
+  .text1 {
+    / Add your existing styles /
+  }
+  
+  .features {
+    / Add your existing styles */
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .feature {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .featureImage {
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .features {
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+      }
+    }
+}
