@@ -1,7 +1,3 @@
-/* app/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
   box-sizing: border-box;
@@ -52,6 +48,7 @@ button:hover span {
 .features {
   display: flex;
   gap: 1rem;
+  
 }
 
 .features-text {
@@ -134,6 +131,8 @@ button:hover span {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+  position: relative; /* Position relative pour permettre un positionnement absolu par rapport à celui-ci */
+  z-index: 1;
 }
 
 .technical-plate {
@@ -190,7 +189,7 @@ button:hover span {
 .text1 p {
   width: 80%;
   flex-shrink: 0;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 p {
@@ -229,11 +228,13 @@ h2 {
   .technical-plate, .implantology {
     flex-direction: column;
     align-items: center;
+    
   }
 
   .bg-technique, .text1, .text, .image-container {
-    width: 90%;
+    width: 100%;
     height: auto;
+    margin-bottom: 4rem;
   }
 
  
@@ -251,7 +252,9 @@ h2 {
     
    
   }
-
+.text1 {
+  margin-bottom: 4rem;
+}
   .technical-plate{
    flex-direction: column;
   }
@@ -269,6 +272,7 @@ h2 {
   .feature .feature-1 .feature-2 {
     width: 250px;
   height: 270px;
+  
   }
 
 
@@ -294,7 +298,13 @@ h2 {
 
   .text1 h2, .text h2 {
     font-size: 1.25rem;
+    
   }
+
+  .text1 {
+    margin-bottom: 4rem;
+  }
+  
 
   button {
     width: 100%;
@@ -320,17 +330,24 @@ h2 {
   }
 }
 
-/* Styles CSS pour ajuster la taille du carousel */
+@media (max-width: 320px) {
+  .text1 {
+    margin-bottom: 4rem;
+  }
+}
+
+
 .carousel-container {
   width: 200px;
-  height: 270px; /* Largeur fixe du carousel */
-  margin: 0 auto; /* Centrer le carousel horizontalement */
+  height: 270px; 
+  margin: 0 auto; 
   margin-top: 10rem;
+  position: relative;
 }
 
 .carousel .slide {
-  width: 200px; /* Largeur fixe de chaque slide */
-  height: 270px; /* Hauteur fixe de chaque slide */
+  width: 200px; 
+  height: 270px; 
 }
 
 .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
