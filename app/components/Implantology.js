@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+
+
 const Implantology = () => {
   return (
     <section className="implantology">

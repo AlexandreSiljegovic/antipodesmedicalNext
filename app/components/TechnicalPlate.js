@@ -3,7 +3,9 @@
 import { useEffect, useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import des styles de la librairie
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
+
 
 const TechnicalPlate = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -24,21 +26,22 @@ const TechnicalPlate = () => {
     <div key="1" className="feature">
       <span>01</span>
       <h3>Radiographie rétro-alvéolaire numérique</h3>
+      <br/>
       <p>
-        Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque et et pellentesque arcu bibendum...
+      Vitae volutpat commodo velit vel donec mus nisl eleifend tincidunt. Scelerisque at et pellentesque arcu bibendum. Eleifend eltum nec rutrum consectetur cursus eleifend. Scelerisque at et pellentesque arcu bibendum. Ultrices lementum nec. 
       </p>
     </div>,
     <div key="2" className="feature-1">
       <div className="feature-image">
         <Image alt='teeth' src={'/images/teeth.svg'} width={40} height={40} />
       </div>
-      <p>Empreintes optiques par caméra</p>
+      <h3><span className='span-chiffre'>02</span><br/>Empreintes optiques par caméra</h3>
     </div>,
     <div key="3" className="feature-2">
       <div className="feature-image">
         <Image alt='teeth' src={'/images/teeth.svg'} width={40} height={40} />
       </div>
-      <p>Loupes Binoculaires</p>
+      <h3><span className='span-chiffre'>03</span><br/>Loupes Binoculaires</h3>
     </div>
   ];
 
