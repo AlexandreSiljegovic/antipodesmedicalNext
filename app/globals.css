@@ -1,0 +1,470 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+
+
+button {
+  background: transparent;
+  color: #BD8F6C;
+  border: 1px #BD8F6C solid;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Mulish;
+  font-weight: 300;
+  width: 13rem;
+  height: 3.5rem;
+  z-index: 20!important;
+}
+
+button span {
+  color: #BD8F6C;
+}
+
+button:hover {
+  background: #BD8F6C;
+}
+
+button:hover span {
+  color: #f5f5f5;
+}
+
+.technical-plate, .implantology {
+  padding: 2rem;
+}
+
+.image-container {
+  height: 30vh;
+}
+
+.features {
+  display: flex;
+  gap: 1rem;
+  width: 70%;
+  height: 100%;
+  
+}
+
+.features-text {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  text-align: bottom;
+}
+
+.feature-text p {
+  bottom: 0;
+  align-items: flex-end;
+}
+
+.feature {
+  width: 257.744px;
+  height: 327.55px;
+  flex-shrink: 0;
+  border: 1px solid rgba(56, 56, 56, 0.10);
+  background: linear-gradient(166deg, #30595F 19.29%, #6C9CA3 90.01%);
+  padding: 1rem;
+}
+
+.feature p {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 153.846% */
+}
+
+.feature h3 {
+  color: #FFF;
+  font-family: Baskerville;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 100% */
+}
+
+.feature span {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 200% */
+}
+
+.feature-1, .feature-2, h3 {
+  color: var(--Text-text-body, #3E3E3E);
+
+font-family: Baskerville;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+
+.feature-1, .feature-2 {
+  width: 257.744px;
+height: 327.55px;
+  border: black 1px solid;
+  padding: 1rem;
+  background-color: #FFF;
+  display: flex;
+  align-items: flex-end;
+  position: relative; /* Add this */
+}
+
+.span-chiffre {
+  font-family: "Mulish"!important;
+  font-size: 14px!important;
+  font-style: normal!important;
+  font-weight: 300!important;
+  line-height: 28px!important;
+}
+
+.feature-image {
+  position: absolute; /* Add this */
+  top: 1rem; /* Adjust as needed */
+  left: 1rem; /* Adjust as needed */
+}
+
+.feature-1 p {
+  vertical-align: bottom;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+}
+
+.bg-technique {
+  width: 30vw;
+  height: 65vh;
+  background-image: url('/images/plateautech.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative; /* Position relative pour permettre un positionnement absolu par rapport à celui-ci */
+  z-index: 1;
+}
+
+.technical-plate {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 100vw;
+}
+
+.implantology {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding: 1rem;
+  height: 100vh;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.implantology p {
+  color: var(--Text-text-body, #3E3E3E);
+  font-family: Mulish;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 200% */
+}
+
+.image-container {
+  background-image: url('/images/implant.png');
+  height: 80%;
+  width: 40%;
+  -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.31);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  padding: 1rem;
+  width: 40vw;
+  height: 22%;
+}
+
+.implantology button {
+  margin-top: 2rem;
+}
+
+.text1 {
+  width: 30vw;
+  height: 25%;
+}
+
+.text1 p {
+  width: 80%;
+  flex-shrink: 0;
+  font-size: 1em;
+}
+
+p {
+  color: var(--Text-text-body, #3E3E3E);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 200% */
+}
+
+h2 {
+  color: #30595F;
+  font-family: Baskerville;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px; /* 92.5% */
+}
+
+.technical-plate button {
+  margin-top: 2rem;
+}
+
+.implant {
+  background-image: url('/images/implantsvg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .technical-plate, .implantology {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .bg-technique, .text1, .text, .image-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
+  }
+
+ 
+
+  .feature, .feature-1, .feature-2 {
+    width: 240px;
+    height: 327.55px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-technique {
+    height: 40vh;
+    
+   
+  }
+
+  .features {
+    margin-top: 4rem;
+  }
+ 
+  
+.text1 {
+  margin-bottom: 4rem;
+}
+  .technical-plate{
+   flex-direction: column;
+  }
+
+  .text1 h2, .text h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 175px;
+    height: 50px;
+    padding: 0.5rem;
+  }
+
+  .feature .feature-1 .feature-2 {
+    width: 250px;
+  height: 270px;
+  
+  }
+
+
+
+  .text {
+    width: 100%;
+   
+  }
+
+  .image-container {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .implantology {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-technique {
+    height: 30vh;
+  }
+  .implant {
+    width: 272px;
+    height: 333.147px;
+  
+  }
+  .features {
+    margin-top: 8rem;
+  }
+  .text1 h2, .text h2 {
+    font-size: 1.25rem;
+    
+  }
+
+  .text1 {
+    margin-bottom: 4rem;
+  }
+  
+
+  button {
+    width: 175px;
+    height: 50px;
+    margin-bottom: 2rem;
+  }
+
+ 
+  .feature .feature-1 .feature-2 {
+    width: 250px;
+  height: 270px;
+  
+  }
+  .text {
+    width: 100%;
+    
+  }
+
+  .image-container {
+    
+      width: 272px;
+    height: 333.147px;
+    
+  }
+
+  .implantology {
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .text1 {
+    margin-bottom: 10rem;
+  }
+ 
+.carousel-container{
+  margin-top: 5rem;
+}
+.bg-technique {
+  height: 30vh;
+}
+.implant {
+  width: 272px;
+  height: 333.147px;
+
+}
+
+.text1 h2, .text h2 {
+  font-size: 1.25rem;
+  
+}
+
+
+
+button {
+  width: 175px;
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+
+.feature .feature-1 .feature-2 {
+  width: 250px;
+height: 270px;
+
+}
+.text {
+  width: 100%;
+}
+
+.image-container {
+  
+    width: 272px;
+  height: 333.147px;
+  
+}
+
+.implantology {
+  height: auto;
+}
+}
+
+
+
+
+
+.carousel-container {
+  width: 257.744px!important;
+  height: 327.55px!important;
+  margin: 0 auto; 
+  margin-top: 10rem;
+  position: relative;
+  margin-bottom: 5rem!important;
+}
+
+.carousel .slide {
+  width: 280px;
+  height: 327.55px;
+  text-align: left!important;
+  
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  position: relative!important;
+}
+
+.carousel-root {
+  width : 250px;
+  height: 300px;
+  position: static;
+}
+
+.control-arrow {
+  display: none!important;
+}
+
+
+
+.dot {
+  background: var(--bg-gradient, linear-gradient(to bottom right, #467D85 0%, #30595F 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #467D85 0%, #30595F 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #467D85 0%, #30595F 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #467D85 0%, #30595F 50%) top right / 50% 50% no-repeat)!important;
+}
