@@ -21,6 +21,29 @@ const TechnicalPlate = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+  //  const renderIndicator = (onClickHandler, isSelected, index, label) => {
+  //   const style = {
+  //     marginLeft: 20,
+  //     color: isSelected ? 'blue' : 'gray',
+  //     cursor: 'pointer',
+  //     fontSize: '20px',
+  //     borderradius: '50%',
+  //     border: '1px solid blue',
+  //     width: '50px',
+  //   };
+  //   return (
+  //     <div
+  //       style={style}
+  //       onClick={onClickHandler}
+  //       onKeyDown={onClickHandler}
+  //       role="button"
+  //       tabIndex={0}
+  //       aria-label={`${label} ${index + 1}`}
+  //     >
+  //       {index + 1}
+  //     </div>
+  //   );
+  // };
 
   const featureCards = [
     <div key="1" className="feature">
@@ -68,8 +91,9 @@ const TechnicalPlate = () => {
           interval={3000}
           transitionTime={500}
           swipeable={true}
-          idth="200px" 
+          width="200px" 
           height="200px"
+          // renderIndicator={renderIndicator}
           >
             {featureCards}
           </Carousel>

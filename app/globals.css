@@ -134,9 +134,9 @@ height: 327.55px;
 }
 
 .feature-image {
-  position: absolute; /* Add this */
-  top: 1rem; /* Adjust as needed */
-  left: 1rem; /* Adjust as needed */
+  position: absolute; 
+  top: 1rem; 
+  left: 1rem; 
 }
 
 .feature-1 p {
@@ -155,7 +155,7 @@ height: 327.55px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
-  position: relative; /* Position relative pour permettre un positionnement absolu par rapport à celui-ci */
+  position: relative; 
   z-index: 1;
 }
 
@@ -222,7 +222,7 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 28px; /* 200% */
+  line-height: 28px; 
 }
 
 h2 {
@@ -231,7 +231,7 @@ h2 {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 37px; /* 92.5% */
+  line-height: 37px; 
 }
 
 .technical-plate button {
